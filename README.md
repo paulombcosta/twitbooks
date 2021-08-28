@@ -22,3 +22,6 @@ Edit `~/.config/twitbooks/config.json`
 ```json
 {"lang": "en", "size": "sm"}
 ```
+
+The model sizes can be either: `sm|md|lg`. More information about 
+language and models [here](https://spacy.io/usage/models)
