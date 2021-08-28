@@ -1,6 +1,7 @@
 # Twitbooks
 
-Attempts to find books mentioned on Twitter
+Attempts to find books mentioned on Twitter. It uses Twitter API for parsing tweets
+and [spaCy](https://github.com/explosion/spaCy) for extracting possible books.
 
 ## Requirements
 
