@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "twitbooks"
+version = "0.1.0"
+description = ""
+authors = ["Paulo Costa <paulombcosta@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tweepy = "^3.10.0"
+spacy = "^3.0.7"
+requests = "^2.25.1"
+Jinja2 = "^3.0.1"
+rich = "^10.6.0"
+returns = "^0.16.0"
+appdirs = "^1.4.4"
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
